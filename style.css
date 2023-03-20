@@ -1,0 +1,112 @@
+body {
+	font-family: Times, serif;
+	background: #579BB1;
+	margin: 0;
+  padding: 0;
+}
+#studies {
+	text-align: justify;
+}
+nav {
+  background-color: #F8F4EA;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+li {
+  height: 100%;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #579BB1;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+a:hover {
+	color: #ECE8DD;
+	transition: color 0.3s ease;
+}
+
+#banniere{
+	width: 100%;
+	height: auto;
+}
+
+h1, h2, h3 {
+  font-family: "Helvetica", sans-serif;
+  text-align: center;
+}
+h1 {
+	color: rgb(60, 60, 60);
+}
+div {
+	width: 70%;
+	margin:10 auto;
+	background: #ECE8DD;
+	padding: 30px;
+	border-radius: 10px;
+	box-shadow: 0 15px 35px rgba(50,50,93,.1);
+	overflow: auto;
+} 
+
+#chiffres{
+	text-align: center;
+}
+
+@media (max-width: 700px) {
+  div {
+    width: 300px;
+  }
+}
+
+#bloc1, #bloc2, #bloc3 {
+	display: inline-block;
+	margin: auto;
+	width: 23%;
+	text-align: center;
+	background: #F8F4EA;
+} 
+
+#skydive{
+	width: 50%;
+}
+
+#bottom-bar {
+  background-color: #F8F4EA;
+  height: 70px;
+  width: 100%;
+  bottom: 0;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#insta {
+	width: 12%;
+}
+#facebook {
+	width: 6%;
+}
+#linkedin{
+	width: 18%;
+}
